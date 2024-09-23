@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Cuidados Pessoais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#alimentacao">Alimentação</a></li>
+                <li><a href="#exercicios">Exercícios</a></li>
+                <li><a href="#saude-mental">Saúde Mental</a></li>
+                <li><a href="#imc">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+        <h1>Saúde e Cuidados Pessoais</h1>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h2>Olá!</h2>
+            <p>Podemos ter tudo, mas se não tivermos saúde, nada vale. Cuide-se! Sua familia e amigos te amam e precisam de você.</p>
+        </section>
+
+        <section id="alimentacao">
+            <h2>Alimentação Saudável</h2>
+            <p>Para ter uma alimentação saudável, consulte o Guia Alimentar da População Brasileira, trabalho primoroso sobre os habitos alimentares do nosso Brasil</p>
+        </section>
+
+        <section id="exercicios">
+            <h2>Exercícios Físicos</h2>
+            <p>Sabia que 15 minutos de exercícios todos os dias podem melhorar sua saúde, segundo estudo publicado na Sports Medicine? Consulte os especialistas para saber a prática mais recomendada para você!</p>
+        </section>
+
+        <section id="saude-mental">
+            <h2>Saúde Mental</h2>
+            <p>O estresse do cotidiano pode deteriorar a sua saúde e bem estar, mas você não está sozinha(o) nessa batalha. Saiba que existem profissionais habilitados na arte da escuta e intervesão científica em prol da sua autonomia, eles são os psicólogos! </p>
+        </section>
+
+        <section id="imc">
+            <h2>Calculadora de IMC</h2>
+            <input type="number" id="peso" placeholder="Peso (kg)" required>
+            <input type="number" id="altura" placeholder="Altura (m)" required>
+            <button id="calcular">Calcular IMC</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Cuidados Pessoais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
